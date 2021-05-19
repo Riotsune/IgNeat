@@ -3,4 +3,10 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET 
+/ HomeR GET
+/Catalogo CatalogoR GET 
+/Sobre SobreR GET
+/Cadastro CadastroR GET
+/SNBelowZero SNBelowZeroR GET
+/REVillage REVillageR GET
+/DaysGone DaysGoneR GET
