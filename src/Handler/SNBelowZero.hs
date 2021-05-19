@@ -4,7 +4,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Home where
+module Handler.SNBelowZero where
 
 import Import
 import Text.Cassius
@@ -13,10 +13,10 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 --import Database.Persist.Postgresql
 
-getHomeR :: Handler Html
-getHomeR = do
+getSNBelowZeroR :: Handler Html
+getSNBelowZeroR = do
     defaultLayout $ do
-        setTitle "Home"
+        setTitle "Subnautica Below Zero"
         addStylesheet (StaticR css_bootstrap_css)
-        toWidgetHead $(cassiusFile "templates/home.cassius")
-        $ (whamletFile "templates/home.hamlet")
+        toWidgetHead $(cassiusFile "templates/SNBelowZero.cassius")
+        $ (whamletFile "templates/SNBelowZero.hamlet")

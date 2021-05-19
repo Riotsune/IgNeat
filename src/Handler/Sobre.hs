@@ -4,7 +4,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Home where
+module Handler.Sobre where
 
 import Import
 import Text.Cassius
@@ -13,10 +13,10 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 --import Database.Persist.Postgresql
 
-getHomeR :: Handler Html
-getHomeR = do
+getSobreR :: Handler Html
+getSobreR = do
     defaultLayout $ do
-        setTitle "Home"
+        setTitle "Sobre"
         addStylesheet (StaticR css_bootstrap_css)
-        toWidgetHead $(cassiusFile "templates/home.cassius")
-        $ (whamletFile "templates/home.hamlet")
+        toWidgetHead $(cassiusFile "templates/Sobre.cassius")
+        $ (whamletFile "templates/Sobre.hamlet")
