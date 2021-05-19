@@ -1,0 +1,12 @@
+#background
+    background-color: #C0C0C0
+	
+#menu
+    background-color: #000000
+
+#content
+    margin-left: 120px
+    padding: 60px
+	
+#middle
+    margin: 50px 0

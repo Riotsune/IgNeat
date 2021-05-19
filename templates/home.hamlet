@@ -1,0 +1,49 @@
+<div #background>
+	<div>
+        <h1>
+            IgNeat
+	<div #menu>
+        <ul>
+            <li>
+    		    <a href=@{HomeR}
+    	            <i> Home
+    		<li>
+    		    <a href=@{CatalogoR}
+    			    <i> Catalogo
+    		<li>
+    		    <a href=@{SobreR}
+            	    <i> Sobre
+            <li>
+                <a href=@{CadastroR}
+                    <i> Cadastro
+
+    <div #content>
+        <h1> Lançamentos:
+		<div #lancamentos>
+		    <div #1>
+				<div>
+                    <img src=@{StaticR img_subnautica_jpg}>
+                <div>
+                    <p> Subnautica Below Zero <br/>
+                Mergulhe em uma aventura submarina congelante em um planeta alienígena. Below Zero se passa dois anos depois do Subnautica original. Sobreviva às condições difíceis construindo habitats, fabricando ferramentas e mergulhando mais fundo no mundo de Subnautica.<br/>
+                <a href=@{SNBelowZeroR}
+                    <i> Saiba mais
+            <div #2>
+                <div>
+                    <img src=@{StaticR img_revillage_jpg}>
+                <div>
+                    <p> Residente Evil Village <br/>
+                Vivencie o horror de sobrevivência como nunca na 8ª sequência parte da franquia Resident Evil - Resident Evil Village. Com gráficos detalhados, ação intensa em primeira pessoa e uma narrativa primorosa, o terror nunca foi tão realista.<br/>
+                <a href=@{REVillageR}
+                    <i> Saiba mais
+            <div #3>
+                <div>
+                    <img src=@{StaticR img_daysgone_jpg}>
+                <div>
+                    <p> Days Gone <br/>
+                Viaje e lute pelos Estados Unidos num cenário pós-pandêmico e mortífero. Jogue com Deacon St. John, um andarilho e caçador de recompensas que segue um caminho tortuoso, lutando para sobreviver ao mesmo tempo em que busca uma razão para viver neste jogo de aventura e ação em mundo aberto.<br/>
+                <a href=@{DaysGoneR}
+                    <i> Saiba mais
+    <footer #rodape>
+        <div>
+            <h1> @ 2021 IgNeat

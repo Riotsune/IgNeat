@@ -1,0 +1,25 @@
+<div #background>
+	<div>
+        <h1>
+            IgNeat
+	<div #menu>
+        <ul>
+            <li>
+    		    <a href=@{HomeR}
+    	            <i> Home
+    		<li>
+    		    <a href=@{CatalogoR}
+    			    <i> Catalogo
+    		<li>
+    		    <a href=@{SobreR}
+            	    <i> Sobre
+            <li>
+                <a href=@{CadastroR}
+                    <i> Cadastro
+
+    <div #content>
+        <h1> Catalogo
+		<p> Em construção.
+    <footer #rodape>
+        <div>
+            <h1> @ 2021 IgNeat
